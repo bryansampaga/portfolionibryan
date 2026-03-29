@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=VT323&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <div class="logo">
+        <img src="iconlogo.png" alt="BS logo" class="logo-image" />
+      </div>
+
+      <nav class="nav-links">
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#projects">portfolio</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <ul class="socials example-2">
+        <li class="icon-content">
+          <a href="https://www.facebook.com/" aria-label="Facebook" data-social="facebook">
+            <div class="filled"></div>
+            <svg class="facebook-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <defs>
+                <mask id="facebook-cutout">
+                  <rect width="24" height="24" rx="6" fill="#fff"/>
+                  <path d="M13.8 20V13.6H16l.4-2.8h-2.6V9.1c0-.8.2-1.4 1.4-1.4h1.3V5.2c-.2 0-1-.1-2-.1-2 0-3.4 1.2-3.4 3.5v2.2H9v2.8h2.1V20h2.7Z" fill="#000"/>
+                </mask>
+              </defs>
+              <rect width="24" height="24" rx="6" fill="currentColor" mask="url(#facebook-cutout)"/>
+            </svg>
+          </a>
+          <div class="tooltip">Facebook</div>
+        </li>
+        <li class="icon-content">
+          <a href="https://github.com/" aria-label="GitHub" data-social="github">
+            <div class="filled"></div>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.6v-2.1c-3.4.8-4.1-1.4-4.1-1.4-.6-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1.1 1.8 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.7-2.7-.3-5.6-1.3-5.6-6a4.8 4.8 0 0 1 1.2-3.3c-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6.1 0c2.3-1.5 3.4-1.2 3.4-1.2.7 1.6.3 2.9.1 3.2a4.8 4.8 0 0 1 1.2 3.3c0 4.7-2.9 5.7-5.6 6 .4.3.9 1 .9 2v3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/>
+            </svg>
+          </a>
+          <div class="tooltip">GitHub</div>
+        </li>
+        <li class="icon-content">
+          <a href="https://www.instagram.com/" aria-label="Instagram" data-social="instagram">
+            <div class="filled"></div>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm0 1.9A3.9 3.9 0 0 0 3.9 7.8v8.4a3.9 3.9 0 0 0 3.9 3.9h8.4a3.9 3.9 0 0 0 3.9-3.9V7.8a3.9 3.9 0 0 0-3.9-3.9H7.8Zm8.9 1.4a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4ZM12 6.8a5.2 5.2 0 1 1 0 10.4 5.2 5.2 0 0 1 0-10.4Zm0 1.9a3.3 3.3 0 1 0 0 6.6 3.3 3.3 0 0 0 0-6.6Z"/>
+            </svg>
+          </a>
+          <div class="tooltip">Instagram</div>
+        </li>
+        <li class="icon-content">
+          <a href="https://www.linkedin.com/" aria-label="LinkedIn" data-social="linkedin">
+            <div class="filled"></div>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6.4 8.6H3.2V21h3.2V8.6ZM4.8 3A1.9 1.9 0 1 0 4.8 6.8 1.9 1.9 0 0 0 4.8 3Zm16 10.3c0-3-1.6-5-4.6-5-2.1 0-3 .9-3.6 1.6V8.6H9.4c0 .8 0 12.4 0 12.4h3.2v-6.9c0-.4 0-.7.1-1 .3-.7 1-1.5 2.2-1.5 1.6 0 2.3 1.2 2.3 3V21H21c0 0 0-6 0-7.7Z"/>
+            </svg>
+          </a>
+          <div class="tooltip">LinkedIn</div>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="container hero-inner">
+        <div class="hero-side left">
+          <h1 class="designer-title" id="designerTitle">
+            <span class="designer-word" id="designerWord">developer</span>
+          </h1>
+          <div class="hero-copy" id="designerCopy" aria-live="polite">
+            <p class="hero-copy-text is-visible" data-copy="developer">
+              I design clean interfaces, production tools, and practical user
+              experiences for real business workflows.
+            </p>
+            <p class="hero-copy-text" data-copy="gamer">
+              I enjoy competitive games, strategy, and focused sessions that
+              sharpen timing, teamwork, and problem-solving.
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap">
+          <button
+            type="button"
+            class="hero-image-stack"
+            id="heroImageStack"
+            aria-label="Swap hero images"
+          >
+            <img src="snoopy.png" alt="Snoopy" class="hero-image base-image" />
+            <img src="joecool.png" alt="Joe Cool" class="hero-image reveal-image" />
+          </button>
+        </div>
+
+        <div class="hero-side right">
+          <h1 class="coder-title" id="coderTitle">
+            <span class="coder-top" id="coderTop">&lt;vibe&gt;</span>
+            <span class="coder-word" id="coderWord">coding</span>
+          </h1>
+          <div class="hero-copy" id="coderCopy">
+            <p class="hero-copy-text is-visible" data-copy="vibe">
+              I build desktop apps, automation systems, and responsive web pages
+              with clean and efficient code.
+            </p>
+            <p class="hero-copy-text" data-copy="mashing">
+              I enjoy fast-paced games and usually learn by jumping straight in
+              instead of following guides. Sometimes I play competitively,
+              sometimes casually, and sometimes just to relax and pass the time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-title">
+          <span>skills & experience</span>
+        </div>
+
+        <div class="skills-grid">
+          <div class="info-card frontend-card">
+            <span class="frontend-window-label" aria-hidden="true"></span>
+            <span class="frontend-pacman" aria-hidden="true"></span>
+            <h3 data-text="Frontend" data-cui-text="> Frontend">Frontend</h3>
+            <p data-text="HTML, CSS, JavaScript, responsive layouts, and UI styling." data-cui-text="> HTML, CSS, JavaScript,&#10;> responsive layouts, and UI&#10;> styling.">HTML, CSS, JavaScript, responsive layouts, and UI styling.</p>
+          </div>
+
+          <div
+            class="info-card python-card"
+            role="button"
+            tabindex="0"
+            aria-pressed="false"
+            aria-label="Flip Python card"
+          >
+            <div class="python-card-inner">
+              <div class="python-card-face python-card-front">
+                <h3>Python</h3>
+                <p>PyQt6 apps, automation tools, desktop workflows, and utilities.</p>
+              </div>
+
+              <div class="python-card-face python-card-back" aria-hidden="true">
+                <div class="python-game-shell">
+                  <div class="python-game-screen-panel">
+                    <div class="python-lcd" aria-label="Mini snake game screen">
+                      <div class="python-lcd-grid" aria-hidden="true"></div>
+                      <div class="python-lcd-gameover" aria-hidden="true">
+                        <span>game</span>
+                        <span>over</span>
+                      </div>
+                      <span class="python-lcd-text">score 0</span>
+                    </div>
+                  </div>
+                  <div class="python-game-controls-panel">
+                    <div class="python-controls" aria-hidden="true">
+                      <span class="python-control up" data-dir="up"></span>
+                      <span class="python-control left" data-dir="left"></span>
+                      <span class="python-control center" data-action="restart"></span>
+                      <span class="python-control right" data-dir="right"></span>
+                      <span class="python-control down" data-dir="down"></span>
+                    </div>
+                    <div class="python-action-buttons" aria-hidden="true">
+                      <span class="python-action-button" data-action="start">Start</span>
+                      <span class="python-action-button" data-action="pause">Pause</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="info-card vba-card"
+            role="button"
+            tabindex="0"
+            aria-pressed="false"
+            aria-label="Open VBA Automations card"
+          >
+            <div class="vba-card-inner">
+              <div class="vba-card-face vba-card-front">
+                <h3>VBA Automations</h3>
+                <p>Developing Excel automations and systems that streamline processes across different departments.</p>
+              </div>
+
+              <div class="vba-card-face vba-card-back" aria-hidden="true">
+                <div class="vba-tiles" aria-hidden="true"></div>
+                <div class="vba-workspace">
+                  <div class="vba-sheet-panel">
+                    <div class="vba-sheet-topbar">
+                      <button class="vba-action parse" type="button">Parse</button>
+                      <button class="vba-action export" type="button">Export</button>
+                    </div>
+                    <div class="vba-sheet-grid">
+                      <div class="vba-sheet-head">SKU</div>
+                      <div class="vba-sheet-head">QTY</div>
+                      <div class="vba-sheet-head">PRICE</div>
+                      <div class="vba-sheet-cell">-</div>
+                      <div class="vba-sheet-cell">-</div>
+                      <div class="vba-sheet-cell">-</div>
+                      <div class="vba-sheet-cell">-</div>
+                      <div class="vba-sheet-cell">-</div>
+                      <div class="vba-sheet-cell">-</div>
+                      <div class="vba-sheet-cell">-</div>
+                      <div class="vba-sheet-cell">-</div>
+                      <div class="vba-sheet-cell">-</div>
+                    </div>
+                    <div class="vba-export-state">
+                      <span class="vba-delivered">Delivered</span>
+                    </div>
+                  </div>
+
+                  <div class="vba-raw-panel">
+                    <div class="vba-raw-title">Raw Data</div>
+                    <pre class="vba-raw-block">sku: AB-102
+qty: 12
+price: 24.50
+
+sku: ZX-088
+qty: 4
+price: 199.00
+
+sku: LM-550
+qty: 27
+price: 8.75</pre>
+                  </div>
+                </div>
+                <div class="vba-export-overlay" aria-hidden="true">
+                  <div class="loader" aria-hidden="true">
+                    <div class="truckWrapper">
+                      <div class="truckBody">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 198 93"
+                          class="trucksvg"
+                        >
+                          <path
+                            stroke-width="3"
+                            stroke="#282828"
+                            fill="#2FB34A"
+                            d="M135 22.5H177.264C178.295 22.5 179.22 23.133 179.594 24.0939L192.33 56.8443C192.442 57.1332 192.5 57.4404 192.5 57.7504V89C192.5 90.3807 191.381 91.5 190 91.5H135C133.619 91.5 132.5 90.3807 132.5 89V25C132.5 23.6193 133.619 22.5 135 22.5Z"
+                          ></path>
+                          <path
+                            stroke-width="3"
+                            stroke="#282828"
+                            fill="#7D7C7C"
+                            d="M146 33.5H181.741C182.779 33.5 183.709 34.1415 184.078 35.112L190.538 52.112C191.16 53.748 189.951 55.5 188.201 55.5H146C144.619 55.5 143.5 54.3807 143.5 53V36C143.5 34.6193 144.619 33.5 146 33.5Z"
+                          ></path>
+                          <path
+                            stroke-width="2"
+                            stroke="#282828"
+                            fill="#282828"
+                            d="M150 65C150 65.39 149.763 65.8656 149.127 66.2893C148.499 66.7083 147.573 67 146.5 67C145.427 67 144.501 66.7083 143.873 66.2893C143.237 65.8656 143 65.39 143 65C143 64.61 143.237 64.1344 143.873 63.7107C144.501 63.2917 145.427 63 146.5 63C147.573 63 148.499 63.2917 149.127 63.7107C149.763 64.1344 150 64.61 150 65Z"
+                          ></path>
+                          <rect
+                            stroke-width="2"
+                            stroke="#282828"
+                            fill="#FFFCAB"
+                            rx="1"
+                            height="7"
+                            width="5"
+                            y="63"
+                            x="187"
+                          ></rect>
+                          <rect
+                            stroke-width="2"
+                            stroke="#282828"
+                            fill="#282828"
+                            rx="1"
+                            height="11"
+                            width="4"
+                            y="81"
+                            x="193"
+                          ></rect>
+                          <rect
+                            stroke-width="3"
+                            stroke="#282828"
+                            fill="#DFDFDF"
+                            rx="2.5"
+                            height="90"
+                            width="121"
+                            y="1.5"
+                            x="6.5"
+                          ></rect>
+                          <rect
+                            stroke-width="2"
+                            stroke="#282828"
+                            fill="#DFDFDF"
+                            rx="2"
+                            height="4"
+                            width="6"
+                            y="84"
+                            x="1"
+                          ></rect>
+                        </svg>
+                      </div>
+                      <div class="truckTires">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 30 30"
+                          class="tiresvg"
+                        >
+                          <circle
+                            stroke-width="3"
+                            stroke="#282828"
+                            fill="#282828"
+                            r="13.5"
+                            cy="15"
+                            cx="15"
+                          ></circle>
+                          <circle fill="#DFDFDF" r="7" cy="15" cx="15"></circle>
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 30 30"
+                          class="tiresvg"
+                        >
+                          <circle
+                            stroke-width="3"
+                            stroke="#282828"
+                            fill="#282828"
+                            r="13.5"
+                            cy="15"
+                            cx="15"
+                          ></circle>
+                          <circle fill="#DFDFDF" r="7" cy="15" cx="15"></circle>
+                        </svg>
+                      </div>
+                      <div class="road"></div>
+                      <svg
+                        xml:space="preserve"
+                        viewBox="0 0 453.459 453.459"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        id="Capa_1"
+                        version="1.1"
+                        fill="#000000"
+                        class="lampPost"
+                      >
+                        <path
+                          d="M252.882,0c-37.781,0-68.686,29.953-70.245,67.358h-6.917v8.954c-26.109,2.163-45.463,10.011-45.463,19.366h9.993
+c-1.65,5.146-2.507,10.54-2.507,16.017c0,28.956,23.558,52.514,52.514,52.514c28.956,0,52.514-23.558,52.514-52.514
+c0-5.478-0.856-10.872-2.506-16.017h9.992c0-9.354-19.352-17.204-45.463-19.366v-8.954h-6.149C200.189,38.779,223.924,16,252.882,16
+c29.952,0,54.32,24.368,54.32,54.32c0,28.774-11.078,37.009-25.105,47.437c-17.444,12.968-37.216,27.667-37.216,78.884v113.914
+h-0.797c-5.068,0-9.174,4.108-9.174,9.177c0,2.844,1.293,5.383,3.321,7.066c-3.432,27.933-26.851,95.744-8.226,115.459v11.202h45.75
+v-11.202c18.625-19.715-4.794-87.527-8.227-115.459c2.029-1.683,3.322-4.223,3.322-7.066c0-5.068-4.107-9.177-9.176-9.177h-0.795
+V196.641c0-43.174,14.942-54.283,30.762-66.043c14.793-10.997,31.559-23.461,31.559-60.277C323.202,31.545,291.656,0,252.882,0z
+M232.77,111.694c0,23.442-19.071,42.514-42.514,42.514c-23.442,0-42.514-19.072-42.514-42.514c0-5.531,1.078-10.957,3.141-16.017
+h78.747C231.693,100.736,232.77,106.162,232.77,111.694z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="vba-success" aria-hidden="true">
+                    <span class="vba-checkmark"></span>
+                    <span>Success</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="info-card tech-card"
+            role="button"
+            tabindex="0"
+            aria-pressed="false"
+            aria-label="Activate Technical Skills card"
+          >
+            <div class="tech-card-inner">
+              <div class="tech-card-face tech-card-front">
+                <h3>Technical Skills</h3>
+                <p>
+                  Supporting different departments through troubleshooting, changing units, basic repairs, and upgrading different devices.
+                </p>
+              </div>
+              <div class="tech-card-face tech-card-back" aria-hidden="true">
+                <div class="tech-board">
+                  <div class="tech-stage-track">
+                    <div class="tech-stage tech-stage-ram">
+                      <div class="tech-readout" aria-hidden="true"></div>
+                      <div class="tech-slot">
+                        <button class="tech-lock left" type="button" aria-label="Left RAM lock"></button>
+                        <div class="tech-slot-channel"></div>
+                        <button class="tech-lock right" type="button" aria-label="Right RAM lock"></button>
+                      </div>
+                      <button class="tech-ram" type="button" aria-label="RAM stick">
+                        <span class="tech-ram-chip"></span>
+                        <span class="tech-ram-chip"></span>
+                        <span class="tech-ram-chip"></span>
+                        <span class="tech-ram-chip"></span>
+                        <span class="tech-ram-gold"></span>
+                      </button>
+                      <button class="tech-next" type="button">Next</button>
+                    </div>
+                    <div class="tech-stage tech-stage-wires">
+                      <svg class="tech-wire-svg" viewBox="0 0 296 180" preserveAspectRatio="none" aria-hidden="true"></svg>
+                      <div class="tech-wire-column left">
+                        <button class="tech-wire-node red" type="button" data-side="left" data-color="red" aria-label="Red wire"></button>
+                        <button class="tech-wire-node blue" type="button" data-side="left" data-color="blue" aria-label="Blue wire"></button>
+                        <button class="tech-wire-node yellow" type="button" data-side="left" data-color="yellow" aria-label="Yellow wire"></button>
+                        <button class="tech-wire-node green" type="button" data-side="left" data-color="green" aria-label="Green wire"></button>
+                      </div>
+                      <div class="tech-wire-column right">
+                        <button class="tech-wire-node yellow" type="button" data-side="right" data-color="yellow" aria-label="Yellow terminal"></button>
+                        <button class="tech-wire-node green" type="button" data-side="right" data-color="green" aria-label="Green terminal"></button>
+                        <button class="tech-wire-node red" type="button" data-side="right" data-color="red" aria-label="Red terminal"></button>
+                        <button class="tech-wire-node blue" type="button" data-side="right" data-color="blue" aria-label="Blue terminal"></button>
+                      </div>
+                      <div class="tech-wire-pointer" aria-hidden="true"></div>
+                      <div class="tech-wire-smoke" aria-hidden="true"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-title">
+          <span>some of my latest work</span>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>Stock Transfer App</h3>
+              <p>QR-based warehouse transfer and receiving workflow.</p>
+              <span>Desktop App</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>Production Dashboard</h3>
+              <p>Machine monitoring, counters, KPI display, and live sessions.</p>
+              <span>Monitoring System</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>Portfolio Website</h3>
+              <p>Minimal personal site with strong visual presentation.</p>
+              <span>Web Design</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-inner">
+      <p>© 2026 Your Name</p>
+      <div class="footer-links">
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#projects">portfolio</a>
+        <a href="#contact">contact</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const heroImageStack = document.getElementById("heroImageStack");
+    const coderTitle = document.getElementById("coderTitle");
+    const coderTop = document.getElementById("coderTop");
+    const coderWord = document.getElementById("coderWord");
+    const designerTitle = document.getElementById("designerTitle");
+    const designerWord = document.getElementById("designerWord");
+    const designerCopy = document.getElementById("designerCopy");
+    const coderCopy = document.getElementById("coderCopy");
+    const frontendCard = document.querySelector(".frontend-card");
+    if (heroImageStack) {
+      const scrambleAlphabet = "abcdefghijklmnopqrstuvwxyz<>/";
+      let designerIsAlt = false;
+      const scrambleFrames = new WeakMap();
+
+      const scrambleText = (element, targetText) => {
+        if (!element) {
+          return;
+        }
+
+        window.clearInterval(scrambleFrames.get(element));
+
+        const originalText = element.dataset.currentText || element.textContent;
+        const maxLength = Math.max(originalText.length, targetText.length);
+        let iteration = 0;
+
+        element.dataset.currentText = targetText;
+
+        const frame = window.setInterval(() => {
+          const nextText = Array.from({ length: maxLength }, (_, index) => {
+            const targetCharacter = targetText[index] || "";
+
+            if (index < iteration) {
+              return targetCharacter;
+            }
+
+            return scrambleAlphabet[Math.floor(Math.random() * scrambleAlphabet.length)];
+          }).join("");
+
+          element.textContent = nextText;
+          iteration += 1 / 3;
+
+          if (iteration >= maxLength) {
+            window.clearInterval(frame);
+            element.textContent = targetText;
+            scrambleFrames.delete(element);
+          }
+        }, 40);
+
+        scrambleFrames.set(element, frame);
+      };
+
+      heroImageStack.addEventListener("click", () => {
+        heroImageStack.classList.toggle("is-swapped");
+        if (designerTitle) {
+          designerTitle.classList.toggle("is-active");
+        }
+        if (designerWord) {
+          designerIsAlt = !designerIsAlt;
+          scrambleText(designerWord, designerIsAlt ? "gamer" : "developer");
+        }
+        if (designerCopy) {
+          const activeCopy = designerIsAlt ? "gamer" : "developer";
+          designerCopy.querySelectorAll("[data-copy]").forEach((copy) => {
+            copy.classList.toggle("is-visible", copy.dataset.copy === activeCopy);
+          });
+        }
+        if (coderTitle) {
+          coderTitle.classList.toggle("is-active");
+        }
+        if (coderTop) {
+          scrambleText(coderTop, designerIsAlt ? "button" : "<vibe>");
+        }
+        if (coderWord) {
+          scrambleText(coderWord, designerIsAlt ? "mashing" : "coding");
+        }
+        if (coderCopy) {
+          const activeCopy = designerIsAlt ? "mashing" : "vibe";
+          coderCopy.querySelectorAll("[data-copy]").forEach((copy) => {
+            copy.classList.toggle("is-visible", copy.dataset.copy === activeCopy);
+          });
+        }
+      });
+    }
+
+    const pythonCard = document.querySelector(".python-card");
+    const vbaCard = document.querySelector(".vba-card");
+    const techCard = document.querySelector(".tech-card");
+
+    if (frontendCard) {
+      const frontendThemes = ["modern", "windows7", "cui", "apple", "hightech", "game"];
+      let frontendThemeIndex = 0;
+      let frontendTransitionTimeout;
+
+      const setFrontendTheme = (theme) => {
+        frontendCard.dataset.theme = theme;
+      };
+
+      const clearFrontendThemeTimers = () => {
+        window.clearTimeout(frontendTransitionTimeout);
+        frontendCard.classList.remove("is-glitching");
+        frontendCard.classList.remove("is-windows-opening");
+      };
+
+      const transitionFrontendTheme = (theme) => {
+        if (theme === "cui") {
+          frontendCard.classList.add("is-glitching");
+          frontendTransitionTimeout = window.setTimeout(() => {
+            setFrontendTheme(theme);
+            frontendTransitionTimeout = window.setTimeout(() => {
+              frontendCard.classList.remove("is-glitching");
+            }, 900);
+          }, 280);
+          return;
+        }
+
+        if (theme === "windows7") {
+          frontendCard.classList.add("is-windows-opening");
+          setFrontendTheme(theme);
+          frontendTransitionTimeout = window.setTimeout(() => {
+            frontendCard.classList.remove("is-windows-opening");
+          }, 700);
+          return;
+        }
+
+        setFrontendTheme(theme);
+      };
+
+      frontendCard.addEventListener("mouseenter", () => {
+        clearFrontendThemeTimers();
+        setFrontendTheme("default");
+      });
+
+      frontendCard.addEventListener("click", () => {
+        clearFrontendThemeTimers();
+        transitionFrontendTheme(frontendThemes[frontendThemeIndex]);
+        frontendThemeIndex = (frontendThemeIndex + 1) % frontendThemes.length;
+      });
+
+      frontendCard.addEventListener("mouseleave", () => {
+        clearFrontendThemeTimers();
+        frontendThemeIndex = 0;
+        setFrontendTheme("default");
+      });
+    }
+
+    if (pythonCard) {
+      const pythonGrid = pythonCard.querySelector(".python-lcd-grid");
+      const pythonLcd = pythonCard.querySelector(".python-lcd");
+      const pythonGameOverOverlay = pythonCard.querySelector(".python-lcd-gameover");
+      const pythonScore = pythonCard.querySelector(".python-lcd-text");
+      const pythonControls = pythonCard.querySelectorAll(".python-control");
+      const pythonActionButtons = pythonCard.querySelectorAll(".python-action-button");
+      const pythonColumns = 12;
+      const pythonRows = 7;
+      const pythonCells = [];
+      const pythonDirections = {
+        up: { x: 0, y: -1 },
+        down: { x: 0, y: 1 },
+        left: { x: -1, y: 0 },
+        right: { x: 1, y: 0 }
+      };
+      let pythonSnake = [];
+      let pythonFood = { x: 0, y: 0 };
+      let pythonDirection = pythonDirections.right;
+      let pythonNextDirection = pythonDirection;
+      let pythonGameLoop;
+      let pythonScoreValue = 0;
+      let pythonIsPaused = false;
+      let pythonIsGameOver = false;
+
+      const createPythonGrid = () => {
+        if (!pythonGrid || pythonCells.length) {
+          return;
+        }
+
+        for (let row = 0; row < pythonRows; row += 1) {
+          for (let column = 0; column < pythonColumns; column += 1) {
+            const cell = document.createElement("span");
+            cell.className = "python-lcd-cell";
+            pythonGrid.appendChild(cell);
+            pythonCells.push(cell);
+          }
+        }
+      };
+
+      const getPythonIndex = (x, y) => y * pythonColumns + x;
+
+      const placePythonFood = () => {
+        const freeCells = [];
+
+        for (let row = 0; row < pythonRows; row += 1) {
+          for (let column = 0; column < pythonColumns; column += 1) {
+            const isSnakeCell = pythonSnake.some((segment) => segment.x === column && segment.y === row);
+            if (!isSnakeCell) {
+              freeCells.push({ x: column, y: row });
+            }
+          }
+        }
+
+        pythonFood = freeCells[Math.floor(Math.random() * freeCells.length)] || { x: 0, y: 0 };
+      };
+
+      const renderPythonGame = () => {
+        pythonCells.forEach((cell) => {
+          cell.className = "python-lcd-cell";
+        });
+
+        pythonSnake.forEach((segment, index) => {
+          const snakeCell = pythonCells[getPythonIndex(segment.x, segment.y)];
+          if (snakeCell) {
+            snakeCell.classList.add(index === 0 ? "is-head" : "is-snake");
+          }
+        });
+
+        const foodCell = pythonCells[getPythonIndex(pythonFood.x, pythonFood.y)];
+        if (foodCell) {
+          foodCell.classList.add("is-food");
+        }
+
+        if (pythonLcd) {
+          pythonLcd.classList.toggle("is-paused", pythonIsPaused);
+          pythonLcd.classList.toggle("is-gameover", pythonIsGameOver);
+        }
+
+        if (pythonGameOverOverlay) {
+          pythonGameOverOverlay.classList.toggle("is-visible", pythonIsGameOver);
+        }
+
+        if (pythonScore) {
+          if (pythonIsGameOver) {
+            pythonScore.textContent = `score ${pythonScoreValue}`;
+          } else if (pythonIsPaused) {
+            pythonScore.textContent = `pause ${pythonScoreValue}`;
+          } else {
+            pythonScore.textContent = `score ${pythonScoreValue}`;
+          }
+        }
+      };
+
+      const resetPythonGame = () => {
+        pythonSnake = [
+          { x: 4, y: 3 },
+          { x: 3, y: 3 },
+          { x: 2, y: 3 }
+        ];
+        pythonDirection = pythonDirections.right;
+        pythonNextDirection = pythonDirection;
+        pythonScoreValue = 0;
+        pythonIsPaused = false;
+        pythonIsGameOver = false;
+        placePythonFood();
+        renderPythonGame();
+      };
+
+      const stopPythonGame = () => {
+        window.clearInterval(pythonGameLoop);
+      };
+
+      const startPythonGame = () => {
+        if (pythonIsGameOver) {
+          resetPythonGame();
+        }
+
+        pythonIsPaused = false;
+        stopPythonGame();
+        renderPythonGame();
+        pythonGameLoop = window.setInterval(() => {
+          if (pythonIsPaused || pythonIsGameOver) {
+            return;
+          }
+
+          pythonDirection = pythonNextDirection;
+          const nextHead = {
+            x: (pythonSnake[0].x + pythonDirection.x + pythonColumns) % pythonColumns,
+            y: (pythonSnake[0].y + pythonDirection.y + pythonRows) % pythonRows
+          };
+
+          const hitSelf = pythonSnake.some(
+            (segment) => segment.x === nextHead.x && segment.y === nextHead.y
+          );
+
+          if (hitSelf) {
+            pythonIsGameOver = true;
+            stopPythonGame();
+            renderPythonGame();
+            return;
+          }
+
+          pythonSnake.unshift(nextHead);
+
+          if (nextHead.x === pythonFood.x && nextHead.y === pythonFood.y) {
+            pythonScoreValue += 1;
+            placePythonFood();
+          } else {
+            pythonSnake.pop();
+          }
+
+          renderPythonGame();
+        }, 220);
+      };
+
+      const pausePythonGame = () => {
+        if (pythonIsGameOver) {
+          return;
+        }
+
+        pythonIsPaused = true;
+        stopPythonGame();
+        renderPythonGame();
+      };
+
+      const updatePythonDirection = (directionKey) => {
+        if (pythonIsPaused || pythonIsGameOver) {
+          return;
+        }
+
+        const nextDirection = pythonDirections[directionKey];
+        if (!nextDirection) {
+          return;
+        }
+
+        const isOpposite =
+          nextDirection.x === -pythonDirection.x && nextDirection.y === -pythonDirection.y;
+
+        if (!isOpposite) {
+          pythonNextDirection = nextDirection;
+        }
+      };
+
+      const showPythonCardBack = () => {
+        pythonCard.classList.add("is-flipped");
+        pythonCard.setAttribute("aria-pressed", "true");
+        pythonCard.focus();
+        startPythonGame();
+      };
+
+      const hidePythonCardBack = () => {
+        pythonCard.classList.remove("is-flipped");
+        pythonCard.setAttribute("aria-pressed", "false");
+        stopPythonGame();
+        pythonIsPaused = false;
+        pythonIsGameOver = false;
+        renderPythonGame();
+      };
+
+      createPythonGrid();
+      resetPythonGame();
+
+      pythonCard.addEventListener("click", showPythonCardBack);
+      pythonCard.addEventListener("mouseleave", hidePythonCardBack);
+      pythonCard.addEventListener("blur", hidePythonCardBack);
+      pythonControls.forEach((control) => {
+        control.addEventListener("click", (event) => {
+          event.stopPropagation();
+          if (control.dataset.action === "restart") {
+            resetPythonGame();
+            startPythonGame();
+            return;
+          }
+
+          updatePythonDirection(control.dataset.dir);
+        });
+      });
+      pythonActionButtons.forEach((button) => {
+        button.addEventListener("click", (event) => {
+          event.stopPropagation();
+
+          if (button.dataset.action === "start") {
+            startPythonGame();
+          }
+
+          if (button.dataset.action === "pause") {
+            pausePythonGame();
+          }
+        });
+      });
+      pythonCard.addEventListener("keydown", (event) => {
+        if (event.key.startsWith("Arrow")) {
+          event.preventDefault();
+          showPythonCardBack();
+        }
+
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          showPythonCardBack();
+        }
+
+        if (event.key === "ArrowUp") {
+          updatePythonDirection("up");
+        }
+
+        if (event.key === "ArrowDown") {
+          updatePythonDirection("down");
+        }
+
+        if (event.key === "ArrowLeft") {
+          updatePythonDirection("left");
+        }
+
+        if (event.key === "ArrowRight") {
+          updatePythonDirection("right");
+        }
+
+        if (event.key === "Escape") {
+          hidePythonCardBack();
+        }
+
+        if (event.key.toLowerCase() === "p") {
+          pausePythonGame();
+        }
+
+        if (event.key.toLowerCase() === "s") {
+          startPythonGame();
+        }
+      });
+    }
+
+    if (vbaCard) {
+      const vbaTiles = vbaCard.querySelector(".vba-tiles");
+      const vbaSheetCells = Array.from(vbaCard.querySelectorAll(".vba-sheet-cell"));
+      const vbaParseButton = vbaCard.querySelector(".vba-action.parse");
+      const vbaExportButton = vbaCard.querySelector(".vba-action.export");
+      const vbaRawBlock = vbaCard.querySelector(".vba-raw-block");
+      const vbaLoader = vbaCard.querySelector(".loader");
+      const vbaSuccess = vbaCard.querySelector(".vba-success");
+      const vbaSkuPrefixes = ["AB", "ZX", "LM", "QT", "PL", "RM", "DV", "SN", "KR", "TX"];
+      let parsedRows = [];
+      let vbaRevealTimeout;
+      let vbaExportTimeout;
+
+      const createVbaTiles = () => {
+        if (!vbaTiles || vbaTiles.childElementCount) {
+          return;
+        }
+
+        const tileCount = 24;
+        for (let index = 0; index < tileCount; index += 1) {
+          const tile = document.createElement("span");
+          tile.className = "vba-tile";
+          tile.style.setProperty("--tile-delay", `${Math.random() * 0.28}s`);
+          vbaTiles.appendChild(tile);
+        }
+      };
+
+      const createVbaRawData = () => {
+        parsedRows = Array.from({ length: 3 }, () => {
+          const skuPrefix = vbaSkuPrefixes[Math.floor(Math.random() * vbaSkuPrefixes.length)];
+          const skuNumber = String(Math.floor(Math.random() * 900) + 100);
+          const qty = String(Math.floor(Math.random() * 48) + 2);
+          const price = (Math.random() * 240 + 8).toFixed(2);
+          return [`${skuPrefix}-${skuNumber}`, qty, price];
+        });
+
+        if (vbaRawBlock) {
+          vbaRawBlock.textContent = parsedRows
+            .map((row) => `sku: ${row[0]}\nqty: ${row[1]}\nprice: ${row[2]}`)
+            .join("\n");
+        }
+      };
+
+      const resetVbaSheet = () => {
+        vbaSheetCells.forEach((cell) => {
+          cell.textContent = "-";
+        });
+        vbaCard.classList.remove("is-exporting", "is-success", "is-delivered");
+        if (vbaLoader) {
+          vbaLoader.hidden = true;
+        }
+        if (vbaSuccess) {
+          vbaSuccess.hidden = true;
+        }
+        window.clearTimeout(vbaExportTimeout);
+        createVbaRawData();
+      };
+
+      const openVbaCard = () => {
+        vbaCard.classList.add("is-revealing");
+        vbaCard.setAttribute("aria-pressed", "true");
+        vbaCard.focus();
+        window.clearTimeout(vbaRevealTimeout);
+        vbaRevealTimeout = window.setTimeout(() => {
+          vbaCard.classList.add("is-active");
+          vbaCard.classList.remove("is-revealing");
+        }, 520);
+      };
+
+      const closeVbaCard = () => {
+        window.clearTimeout(vbaRevealTimeout);
+        window.clearTimeout(vbaExportTimeout);
+        vbaCard.classList.remove("is-active", "is-revealing", "is-exporting", "is-success", "is-delivered");
+        vbaCard.setAttribute("aria-pressed", "false");
+        resetVbaSheet();
+      };
+
+      createVbaTiles();
+      resetVbaSheet();
+
+      vbaCard.addEventListener("click", () => {
+        if (!vbaCard.classList.contains("is-active")) {
+          openVbaCard();
+        }
+      });
+
+      vbaCard.addEventListener("mouseleave", closeVbaCard);
+      vbaCard.addEventListener("focusout", (event) => {
+        if (!vbaCard.contains(event.relatedTarget)) {
+          closeVbaCard();
+        }
+      });
+      vbaCard.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          openVbaCard();
+        }
+
+        if (event.key === "Escape") {
+          closeVbaCard();
+        }
+      });
+
+      if (vbaParseButton) {
+        vbaParseButton.addEventListener("click", (event) => {
+          event.stopPropagation();
+          parsedRows.flat().forEach((value, index) => {
+            if (vbaSheetCells[index]) {
+              vbaSheetCells[index].textContent = value;
+            }
+          });
+        });
+      }
+
+      if (vbaExportButton) {
+        vbaExportButton.addEventListener("click", (event) => {
+          event.stopPropagation();
+          vbaCard.classList.remove("is-success", "is-delivered");
+          vbaCard.classList.add("is-exporting");
+          if (vbaLoader) {
+            vbaLoader.hidden = false;
+          }
+          if (vbaSuccess) {
+            vbaSuccess.hidden = true;
+          }
+
+          window.clearTimeout(vbaExportTimeout);
+          vbaExportTimeout = window.setTimeout(() => {
+            vbaCard.classList.remove("is-exporting");
+            vbaCard.classList.add("is-success");
+            if (vbaLoader) {
+              vbaLoader.hidden = true;
+            }
+            if (vbaSuccess) {
+              vbaSuccess.hidden = false;
+            }
+
+            vbaExportTimeout = window.setTimeout(() => {
+              vbaCard.classList.remove("is-success");
+              vbaCard.classList.add("is-delivered");
+              if (vbaSuccess) {
+                vbaSuccess.hidden = true;
+              }
+            }, 1000);
+          }, 3000);
+        });
+      }
+    }
+
+    if (techCard) {
+      const techRam = techCard.querySelector(".tech-ram");
+      const techSlot = techCard.querySelector(".tech-slot");
+      const techLocks = techCard.querySelectorAll(".tech-lock");
+      const techReadout = techCard.querySelector(".tech-readout");
+      const techNext = techCard.querySelector(".tech-next");
+      const techWireSvg = techCard.querySelector(".tech-wire-svg");
+      const techLeftWireColumn = techCard.querySelector(".tech-wire-column.left");
+      const techRightWireColumn = techCard.querySelector(".tech-wire-column.right");
+      const techLeftWireNodes = Array.from(techCard.querySelectorAll('.tech-wire-node[data-side="left"]'));
+      const techRightWireNodes = Array.from(techCard.querySelectorAll('.tech-wire-node[data-side="right"]'));
+      const techWirePointer = techCard.querySelector(".tech-wire-pointer");
+      const techWireSmoke = techCard.querySelector(".tech-wire-smoke");
+      let techCardTimeout;
+      let techReadoutTimeout;
+      let techDragPointerId = null;
+      let techRamRect = null;
+      let techWireDrag = null;
+      const techWireMismatchTimeouts = [];
+      let techWireGradientId = 0;
+
+      const triggerTechCardGlitch = () => {
+        window.clearTimeout(techCardTimeout);
+        techCard.classList.remove("is-glitching");
+        void techCard.offsetWidth;
+        techCard.classList.add("is-glitching");
+        techCard.setAttribute("aria-pressed", "true");
+
+        techCardTimeout = window.setTimeout(() => {
+          techCard.classList.remove("is-glitching");
+          randomizeWireLayout();
+          techCard.classList.add("is-active");
+        }, 220);
+      };
+
+      const resetTechSimulation = () => {
+        window.clearTimeout(techReadoutTimeout);
+        while (techWireMismatchTimeouts.length) {
+          window.clearTimeout(techWireMismatchTimeouts.pop());
+        }
+        techCard.classList.remove("is-seated", "is-locked", "is-reading", "is-identified", "is-wire-stage");
+        techLocks.forEach((lock) => {
+          lock.classList.remove("is-locked");
+        });
+        techLeftWireNodes.forEach((node) => {
+          node.classList.remove("is-connected", "is-dragging", "is-mismatch");
+        });
+        techRightWireNodes.forEach((node) => {
+          node.classList.remove("is-connected", "is-mismatch");
+        });
+        if (techWireSvg) {
+          techWireSvg.innerHTML = "";
+        }
+        if (techWirePointer) {
+          techWirePointer.classList.remove("is-active");
+        }
+        if (techWireSmoke) {
+          techWireSmoke.classList.remove("is-active");
+        }
+        if (techReadout) {
+          techReadout.textContent = "No RAM detected";
+        }
+        if (techRam) {
+          techRam.classList.remove("is-dragging");
+          techRam.style.left = "";
+          techRam.style.top = "";
+        }
+        randomizeWireLayout();
+      };
+
+      const resetTechCard = () => {
+        window.clearTimeout(techCardTimeout);
+        techCard.classList.remove("is-glitching", "is-active");
+        techCard.setAttribute("aria-pressed", "false");
+        resetTechSimulation();
+      };
+
+      techCard.addEventListener("click", () => {
+        if (!techCard.classList.contains("is-active")) {
+          triggerTechCardGlitch();
+        }
+      });
+      techCard.addEventListener("mouseleave", resetTechCard);
+      techCard.addEventListener("focusout", (event) => {
+        if (!techCard.contains(event.relatedTarget)) {
+          resetTechCard();
+        }
+      });
+      techCard.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          triggerTechCardGlitch();
+        }
+
+        if (event.key === "Escape") {
+          resetTechCard();
+        }
+      });
+
+      const wireStrokeMap = {
+        red: "#e64c56",
+        blue: "#5c8dff",
+        yellow: "#f5cf58",
+        green: "#4ed27f"
+      };
+
+      const shuffleNodes = (nodes, container) => {
+        if (!container) {
+          return;
+        }
+
+        const nextOrder = [...nodes];
+        for (let index = nextOrder.length - 1; index > 0; index -= 1) {
+          const swapIndex = Math.floor(Math.random() * (index + 1));
+          [nextOrder[index], nextOrder[swapIndex]] = [nextOrder[swapIndex], nextOrder[index]];
+        }
+
+        nextOrder.forEach((node) => {
+          container.appendChild(node);
+        });
+      };
+
+      const randomizeWireLayout = () => {
+        shuffleNodes(techLeftWireNodes, techLeftWireColumn);
+        shuffleNodes(techRightWireNodes, techRightWireColumn);
+      };
+
+      const getWirePoint = (node) => {
+        const svgRect = techWireSvg.getBoundingClientRect();
+        const nodeRect = node.getBoundingClientRect();
+        const isLeft = node.dataset.side === "left";
+        return {
+          x: nodeRect.left + nodeRect.width / 2 - svgRect.left + (isLeft ? 43 : -43),
+          y: nodeRect.top + nodeRect.height / 2 - svgRect.top
+        };
+      };
+
+      const ensureWireDefs = () => {
+        let defs = techWireSvg.querySelector("defs");
+        if (!defs) {
+          defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+          techWireSvg.prepend(defs);
+        }
+        return defs;
+      };
+
+      const createMismatchGradient = (startPoint, endPoint, startColor, endColor) => {
+        const defs = ensureWireDefs();
+        const gradientId = `tech-wire-gradient-${techWireGradientId += 1}`;
+        const gradient = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
+        gradient.setAttribute("id", gradientId);
+        gradient.setAttribute("gradientUnits", "userSpaceOnUse");
+        gradient.setAttribute("x1", String(startPoint.x));
+        gradient.setAttribute("y1", String(startPoint.y));
+        gradient.setAttribute("x2", String(endPoint.x));
+        gradient.setAttribute("y2", String(endPoint.y));
+
+        [
+          ["0%", wireStrokeMap[startColor]],
+          ["34%", wireStrokeMap[startColor]],
+          ["46%", wireStrokeMap[startColor]],
+          ["50%", wireStrokeMap[endColor]],
+          ["54%", wireStrokeMap[startColor]],
+          ["66%", wireStrokeMap[endColor]],
+          ["100%", wireStrokeMap[endColor]]
+        ].forEach(([offset, color]) => {
+          const stop = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+          stop.setAttribute("offset", offset);
+          stop.setAttribute("stop-color", color);
+          gradient.appendChild(stop);
+        });
+
+        defs.appendChild(gradient);
+        return gradientId;
+      };
+
+      const createWirePath = (startPoint, endPoint, color, endColor = color) => {
+        const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        const midX = (startPoint.x + endPoint.x) / 2;
+        path.setAttribute(
+          "d",
+          `M ${startPoint.x} ${startPoint.y} C ${midX} ${startPoint.y}, ${midX} ${endPoint.y}, ${endPoint.x} ${endPoint.y}`
+        );
+        path.setAttribute("class", `tech-wire-path ${color}`);
+        if (endColor !== color) {
+          path.classList.add("is-mismatch");
+          path.setAttribute("stroke", `url(#${createMismatchGradient(startPoint, endPoint, color, endColor)})`);
+        }
+        return path;
+      };
+
+      const updateWirePointer = (clientX, clientY) => {
+        if (!techWirePointer || !techWireSvg) {
+          return;
+        }
+        const svgRect = techWireSvg.getBoundingClientRect();
+        techWirePointer.style.left = `${clientX - svgRect.left - 7}px`;
+        techWirePointer.style.top = `${clientY - svgRect.top - 7}px`;
+      };
+
+      if (techNext) {
+        techNext.addEventListener("click", (event) => {
+          event.stopPropagation();
+          if (techCard.classList.contains("is-identified")) {
+            techCard.classList.add("is-wire-stage");
+          }
+        });
+      }
+
+      if (techRam && techSlot) {
+        techRam.addEventListener("pointerdown", (event) => {
+          if (techCard.classList.contains("is-locked")) {
+            return;
+          }
+
+          techDragPointerId = event.pointerId;
+          techRam.classList.add("is-dragging");
+          techRam.setPointerCapture(event.pointerId);
+          techRamRect = techCard.getBoundingClientRect();
+        });
+
+        techRam.addEventListener("pointermove", (event) => {
+          if (techDragPointerId !== event.pointerId || !techRamRect || techCard.classList.contains("is-locked")) {
+            return;
+          }
+
+          const nextLeft = event.clientX - techRamRect.left - techRam.offsetWidth / 2;
+          const nextTop = event.clientY - techRamRect.top - techRam.offsetHeight / 2;
+          techRam.style.left = `${Math.max(8, Math.min(nextLeft, techRamRect.width - techRam.offsetWidth - 8))}px`;
+          techRam.style.top = `${Math.max(30, Math.min(nextTop, techRamRect.height - techRam.offsetHeight - 26))}px`;
+        });
+
+        techRam.addEventListener("pointerup", (event) => {
+          if (techDragPointerId !== event.pointerId) {
+            return;
+          }
+
+          techDragPointerId = null;
+          techRam.classList.remove("is-dragging");
+          techRam.releasePointerCapture(event.pointerId);
+          const ramBounds = techRam.getBoundingClientRect();
+          const slotBounds = techSlot.getBoundingClientRect();
+          const ramCenterX = ramBounds.left + ramBounds.width / 2;
+          const slotCenterX = slotBounds.left + slotBounds.width / 2;
+          const isCentered = Math.abs(ramCenterX - slotCenterX) <= 18;
+          const isNearSlotHeight =
+            ramBounds.bottom >= slotBounds.top - 12 &&
+            ramBounds.bottom <= slotBounds.top + 26;
+          const isSeated =
+            isCentered &&
+            isNearSlotHeight &&
+            ramBounds.left >= slotBounds.left - 14 &&
+            ramBounds.right <= slotBounds.right + 14;
+
+          if (isSeated) {
+            techCard.classList.add("is-seated");
+            techRam.style.left = "";
+            techRam.style.top = "";
+          } else {
+            techCard.classList.remove("is-seated", "is-locked");
+            techLocks.forEach((lock) => {
+              lock.classList.remove("is-locked");
+            });
+            techRam.style.left = "";
+            techRam.style.top = "";
+          }
+        });
+
+        techRam.addEventListener("pointercancel", () => {
+          techDragPointerId = null;
+          techRam.classList.remove("is-dragging");
+          techRam.style.left = "";
+          techRam.style.top = "";
+        });
+      }
+
+      techLocks.forEach((lock) => {
+        lock.addEventListener("click", (event) => {
+          event.stopPropagation();
+          if (!techCard.classList.contains("is-seated")) {
+            return;
+          }
+
+          lock.classList.toggle("is-locked");
+          const allLocked = Array.from(techLocks).every((item) => item.classList.contains("is-locked"));
+          techCard.classList.toggle("is-locked", allLocked);
+
+          if (allLocked) {
+            window.clearTimeout(techReadoutTimeout);
+            techCard.classList.add("is-reading");
+            techCard.classList.remove("is-identified");
+            if (techReadout) {
+              techReadout.textContent = "16 GB RAM Reading...";
+            }
+
+            techReadoutTimeout = window.setTimeout(() => {
+              techCard.classList.remove("is-reading");
+              techCard.classList.add("is-identified");
+              if (techReadout) {
+                techReadout.textContent = "16 GB Hyper Z";
+              }
+            }, 2000);
+          } else {
+            window.clearTimeout(techReadoutTimeout);
+            techCard.classList.remove("is-reading", "is-identified");
+            if (techReadout) {
+              techReadout.textContent = "No RAM detected";
+            }
+          }
+        });
+      });
+
+      techLeftWireNodes.forEach((node) => {
+        node.addEventListener("pointerdown", (event) => {
+          if (!techCard.classList.contains("is-wire-stage") || node.classList.contains("is-connected")) {
+            return;
+          }
+
+          event.stopPropagation();
+          const startPoint = getWirePoint(node);
+          const tempPath = createWirePath(startPoint, startPoint, node.dataset.color);
+          techWireSvg.appendChild(tempPath);
+          techWireDrag = {
+            pointerId: event.pointerId,
+            node,
+            color: node.dataset.color,
+            tempPath,
+            startPoint
+          };
+          node.classList.add("is-dragging");
+          node.setPointerCapture(event.pointerId);
+          if (techWirePointer) {
+            techWirePointer.classList.add("is-active");
+          }
+          updateWirePointer(event.clientX, event.clientY);
+        });
+
+        node.addEventListener("pointermove", (event) => {
+          if (!techWireDrag || techWireDrag.pointerId !== event.pointerId) {
+            return;
+          }
+
+          const svgRect = techWireSvg.getBoundingClientRect();
+          const currentPoint = {
+            x: event.clientX - svgRect.left,
+            y: event.clientY - svgRect.top
+          };
+          const nextPath = createWirePath(techWireDrag.startPoint, currentPoint, techWireDrag.color);
+          techWireDrag.tempPath.setAttribute("d", nextPath.getAttribute("d"));
+          updateWirePointer(event.clientX, event.clientY);
+        });
+
+        node.addEventListener("pointerup", (event) => {
+          if (!techWireDrag || techWireDrag.pointerId !== event.pointerId) {
+            return;
+          }
+
+          const target = document
+            .elementFromPoint(event.clientX, event.clientY)
+            ?.closest('.tech-wire-node[data-side="right"]');
+
+          if (
+            target &&
+            !target.classList.contains("is-connected")
+          ) {
+            const finalPath = createWirePath(
+              techWireDrag.startPoint,
+              getWirePoint(target),
+              techWireDrag.color,
+              target.dataset.color
+            );
+            techWireDrag.tempPath.replaceWith(finalPath);
+            if (target.dataset.color === techWireDrag.color) {
+              techWireDrag.node.classList.add("is-connected");
+              target.classList.add("is-connected");
+            } else {
+              techWireDrag.node.classList.add("is-connected", "is-mismatch");
+              target.classList.add("is-connected", "is-mismatch");
+
+              if (techWireSmoke && techWireSvg) {
+                const svgRect = techWireSvg.getBoundingClientRect();
+                techWireSmoke.style.left = `${event.clientX - svgRect.left - 19}px`;
+                techWireSmoke.style.top = `${event.clientY - svgRect.top - 19}px`;
+                techWireSmoke.classList.remove("is-active");
+                void techWireSmoke.offsetWidth;
+                techWireSmoke.classList.add("is-active");
+              }
+
+              const mismatchSource = techWireDrag.node;
+              const mismatchTarget = target;
+              const mismatchTimeout = window.setTimeout(() => {
+                finalPath.remove();
+                mismatchSource.classList.remove("is-connected", "is-mismatch");
+                mismatchTarget.classList.remove("is-connected", "is-mismatch");
+              }, 3000);
+              techWireMismatchTimeouts.push(mismatchTimeout);
+            }
+          } else {
+            techWireDrag.tempPath.remove();
+            if (techWireSmoke && techWireSvg) {
+              const svgRect = techWireSvg.getBoundingClientRect();
+              techWireSmoke.style.left = `${event.clientX - svgRect.left - 19}px`;
+              techWireSmoke.style.top = `${event.clientY - svgRect.top - 19}px`;
+              techWireSmoke.classList.remove("is-active");
+              void techWireSmoke.offsetWidth;
+              techWireSmoke.classList.add("is-active");
+            }
+          }
+
+          if (techWirePointer) {
+            techWirePointer.classList.remove("is-active");
+          }
+          techWireDrag.node.classList.remove("is-dragging");
+          techWireDrag.node.releasePointerCapture(event.pointerId);
+          techWireDrag = null;
+        });
+
+        node.addEventListener("pointercancel", () => {
+          if (!techWireDrag) {
+            return;
+          }
+
+          techWireDrag.tempPath.remove();
+          if (techWirePointer) {
+            techWirePointer.classList.remove("is-active");
+          }
+          techWireDrag.node.classList.remove("is-dragging");
+          techWireDrag = null;
+        });
+      });
+    }
+  </script>
+</body>
+</html>
